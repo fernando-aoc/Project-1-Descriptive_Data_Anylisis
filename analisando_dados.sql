@@ -35,4 +35,4 @@ SELECT (COUNT(Nome)/9999)*100 AS 'Total de Mulheres(%)' FROM vendas_totais WHERE
 SELECT COUNT(Nome) AS 'Total de Homens' FROM vendas_totais WHERE Sexo = 'M';
 SELECT (COUNT(Nome)/9999)*100 AS 'Total de Homens(%)' FROM vendas_totais WHERE Sexo = 'M';
 
--- 5#: O total de vendedores mulheres é de 4501(45%) e a de vendedores homens é de 5498(55%). 
+-- 5#: O total de vendedores do sexo feminino é de 4501(45%) e do sexo masculino é de 5498(54.98%). 
