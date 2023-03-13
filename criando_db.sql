@@ -8,7 +8,6 @@ Nome VARCHAR(100) NOT NULL,
 Sobrenome VARCHAR(100) NOT NULL
 )
 ENGINE=InnoDB DEFAULT CHARSET = latin1;
-USE vendas;
 CREATE TABLE vendas_totais (
     SKU CHAR(6) NOT NULL,
     Produto VARCHAR(100) NOT NULL,
